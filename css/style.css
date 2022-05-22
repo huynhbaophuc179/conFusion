@@ -41,3 +41,11 @@ body {
 .navbar-dark {
   background-color: #512da8;
 }
+@media (min-width: 544px) {
+  .firstCol {
+    column-span: 1100%;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
